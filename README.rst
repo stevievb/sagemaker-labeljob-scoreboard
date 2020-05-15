@@ -18,7 +18,7 @@ Then to run
 
 Then go to a browser
 
-    http://localhost:5007/job_progress_histogram?labeling_job_name=a-test-job-name&bucket=an-s3-bucket-name&prefix=a/prefix/job-name/annotations/worker-response&user_pool_id=us-west-2_adfsdasf&width=800&height=500
+    http://localhost:5007/job_progress_barchart?labeling_job_name=a-test-job-name&bucket=an-s3-bucket-name&prefix=a/prefix/job-name/annotations/worker-response&user_pool_id=us-west-2_adfsdasf&width=800&height=500
 
 Required Query params -
     labeling_job_name - the name of the sagemaker labeling job
