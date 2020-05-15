@@ -8,4 +8,4 @@ COPY args.py .
 COPY s3.py .
 
 EXPOSE 5006
-CMD bokeh serve --allow-websocket-origin='*'  job_progress_histogram.py
+CMD bokeh serve --allow-websocket-origin='*'  job_progress_barchart.py
